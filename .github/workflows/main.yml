@@ -14,5 +14,5 @@ jobs:
     - name: Run a multi-line script
       run: |
         npm i
-        npm deploy
+        npm run deploy
         
