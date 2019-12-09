@@ -12,8 +12,8 @@ jobs:
     
     - name: shit
       run: |
-        git config --global user.email "you@example.com"
-        git config --global user.name "Your Name"
+        git config --global user.email "vladkhvo@gmail.com"
+        git config --global user.name "vladislav khvostov"
     
     - name: Build and Deploy
       uses: JamesIves/github-pages-deploy-action@releases/v3
