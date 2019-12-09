@@ -9,9 +9,12 @@ jobs:
 
     steps:
     - uses: actions/checkout@v1
+    
+    - name: shit
       run: |
         git config --global user.email "you@example.com"
         git config --global user.name "Your Name"
+    
     - name: Build and Deploy
       uses: JamesIves/github-pages-deploy-action@releases/v3
       with:
