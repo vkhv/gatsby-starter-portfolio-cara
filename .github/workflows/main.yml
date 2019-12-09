@@ -20,4 +20,5 @@ jobs:
         git config --global user.name "vladislav khvsotov"
         git checkout master
         git add ./docs
+        git status
         git commit -m 'deploy static in docs'
