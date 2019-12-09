@@ -19,5 +19,6 @@ jobs:
         git config --global user.email "vladkhvo@gmail.com"
         git config --global user.name "vladislav khvsotov"
         ls
+        git status
         git add ./docs
         git commit -m 'deploy static in docs'
