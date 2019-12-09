@@ -1,8 +1,11 @@
 require(`dotenv`).config({
   path: `.env`,
+
 })
 
 module.exports = {
+      pathPrefix: "/gatsby-starter-portfolio-cara",
+
   siteMetadata: {
     siteTitleAlt: `Арт студия красный слон`,
   },

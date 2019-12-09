@@ -14,16 +14,5 @@ jobs:
     - name: Run a multi-line script
       run: |
         npm i
-        npm run build
-        mv public/* docs/
+        npm deploy
         
-    - name: Commit files
-      run: |
-        git config --local user.email "vladkhvo@gmail.com"
-        git config --local user.name "vladislav khvsotov"
-        git add .
-        git commit -m "Add changes"
-    - name: Push changes
-      uses: ad-m/github-push-action@master
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
