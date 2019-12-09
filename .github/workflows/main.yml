@@ -16,4 +16,6 @@ jobs:
         npm i
         npm run build
         mv public/ docs/
+        git config --global user.email "vladkhvo@gmail.com"
+        git config --global user.name "vladislav khvsotov"
         git commit -m 'deploy static in docs'
