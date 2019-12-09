@@ -15,7 +15,7 @@ jobs:
       run: |
         npm i
         npm run build
-        mv public/ docs/
+        mv public/* docs/
         git config --global user.email "vladkhvo@gmail.com"
         git config --global user.name "vladislav khvsotov"
         git checkout master
