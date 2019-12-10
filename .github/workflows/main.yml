@@ -10,10 +10,12 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     
-    - name: shit
+    - name: deploy gh-pages
       run: |
         git config --global user.email "vladkhvo@gmail.com"
         git config --global user.name "vladislav khvostov"
+        npm i
+        npm run build
     
     - name: Build and Deploy
       uses: JamesIves/github-pages-deploy-action@releases/v3
