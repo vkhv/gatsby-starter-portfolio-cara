@@ -15,7 +15,7 @@ jobs:
         git config --global user.email "vladkhvo@gmail.com"
         git config --global user.name "vladislav khvostov"
         npm i
-        npm run build
+        npm run deploy
     
     - name: Build and Deploy
       uses: JamesIves/github-pages-deploy-action@releases/v3
